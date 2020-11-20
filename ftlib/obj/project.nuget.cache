@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8vds9HEQBzKtzb/yLK1Y+9BAQMkPovToKH6775h7SV/HsZzALPv2YzZWrX6O/j29Ga+5+USLG7L2SidLfmy6tQ==",
+  "success": true,
+  "projectFilePath": "D:\\gamedev\\game-like-evolution\\ftlib\\ftlib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\computer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\computer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
