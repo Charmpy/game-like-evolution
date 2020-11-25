@@ -10,9 +10,16 @@ public class MouseScript : MonoBehaviour
 
     float xRotation = 0f;
 
+    public Camera zoom;
+
+    public float zoomValue = 60f;
+
+    float standartZoom;
+
     // Start is called before the first frame update
     void Start()
     {
+        standartZoom = zoom.fieldOfView;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -29,6 +36,13 @@ public class MouseScript : MonoBehaviour
 
         playerBody.Rotate(Vector3.up * mouseX);
 
-        
+        if (Input.GetMouseButton(1))
+        {
+            zoom.fieldOfView = zoomValue;
+        }
+        else
+        {
+            zoom.fieldOfView = standartZoom;
+        }
     }
 }
